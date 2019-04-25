@@ -99,16 +99,13 @@ ACCOUNT. Услуга предоставляется Контент-провай
       //<![CDATA[
       function rsz() {
           var footer = document['getElementById']('footer');
-          var buttonWrap = document['getElementsByClassName']('btn-wrapper')[0];
           var btn = document['getElementById']('wapSubmitBtn');
           footer['style']['bottom'] = "auto";
           footer['style']['top'] = (window['innerHeight'] - footer.offsetHeight) + 'px';
           if ((window['innerHeight'] > 212) && (window['innerHeight'] < 233)) {
-              // buttonWrap['style']['marginTop'] = '-'+ (footer.offsetHeight-55) + 'px';
               btn.style.width = '85px';
               btn.style.height = '85px';
           } else {
-              // buttonWrap['style']['marginTop'] = 0;
               btn.style.width = '';
               btn.style.height = '';
           }
