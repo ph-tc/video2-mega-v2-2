@@ -691,9 +691,15 @@ img {
   }
 }
 
-@media screen and (max-height: 230px) {
+@media screen and (max-height: 240px) {
   .main .btn-wrapper {
-    top: 50%;
+    top: auto;
+    bottom: 30px;
+    -webkit-transform: translate(0, -29px);
+    -moz-transform: translate(0, -29px);
+    -ms-transform: translate(0, -29px);
+    -o-transform: translate(0, -29px);
+    transform: translate(0, -29px);
   }
 }
 
