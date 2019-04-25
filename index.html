@@ -102,14 +102,6 @@ ACCOUNT. Услуга предоставляется Контент-провай
           var btn = document['getElementById']('wapSubmitBtn');
           footer['style']['bottom'] = "auto";
           footer['style']['top'] = (window['innerHeight'] - footer.offsetHeight) + 'px';
-          if ((window['innerHeight'] > 212) && (window['innerHeight'] < 233)) {
-              btn.style.width = '85px';
-              btn.style.height = '85px';
-          } else {
-              btn.style.width = '';
-              btn.style.height = '';
-          }
-
           document.body.style.height = window.innerHeight + 'px';
       }
       setInterval(function() {
