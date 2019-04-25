@@ -75,20 +75,9 @@ ACCOUNT. Услуга предоставляется Контент-провай
           </div>
         </div>
       </div>
-<!--      <div class="tools">-->
-<!--        <div class="inner">-->
-<!--          <div class="watch">2 568 741</div>-->
-<!--          <div class="add-wrapper">-->
-<!--            <button class="add" disabled></button>-->
-<!--          </div>-->
-<!--          <div class="download-wrapper">-->
-<!--            <button class="download" disabled></button>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
     </div>
     <div class="btn-wrapper" id="btn-wrapper">
-      <a class="btn" id="btn" href="<TARIF_YES_URL">
+      <a class="btn" id="wapSubmitBtn" href="<TARIF_YES_URL">
         <div class="icon"></div>
         <div class="text">PLAY</div>
       </a>
@@ -111,7 +100,7 @@ ACCOUNT. Услуга предоставляется Контент-провай
       function rsz() {
           var footer = document['getElementById']('footer');
           var buttonWrap = document['getElementsByClassName']('btn-wrapper')[0];
-          var btn = document['getElementById']('btn');
+          var btn = document['getElementById']('wapSubmitBtn');
           footer['style']['bottom'] = "auto";
           footer['style']['top'] = (window['innerHeight'] - footer.offsetHeight) + 'px';
           if ((window['innerHeight'] > 212) && (window['innerHeight'] < 233)) {
